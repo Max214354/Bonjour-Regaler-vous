@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Documents PDF</title>
+<title>Mes Documents PDF</title>
+
 <style>
     body {
         margin: 0;
@@ -11,7 +12,6 @@
         background: #f4f4f4;
     }
 
-    /* Bandeau supérieur */
     .header {
         background: linear-gradient(90deg, #ff6a00, #ff9500);
         color: white;
@@ -28,13 +28,11 @@
         font-weight: normal;
     }
 
-    /* Layout général */
     .container {
         display: flex;
         height: calc(100vh - 120px);
     }
 
-    /* Colonne gauche */
     .sidebar {
         width: 300px;
         background: #ffffff;
@@ -72,14 +70,13 @@
         padding-left: 5px;
     }
 
-    /* Zone PDF */
     .content {
         flex: 1;
         padding: 20px;
-        background: #fff;
         display: flex;
         flex-direction: column;
         align-items: center;
+        background: #fff;
     }
 
     iframe {
@@ -104,27 +101,25 @@
     .download-btn:hover {
         background: #3399ff;
     }
+
 </style>
-<script>
-    function openPDF(link) {
-        document.getElementById("pdfFrame").src = link;
-        document.getElementById("downloadBtn").href = link;
-    }
-</script>
 </head>
 <body>
 
 <div class="header">
-    Documents PDF
-    <p>Choisis un document à gauche, il s’affichera ici à droite. Tu peux aussi le télécharger si tu le souhaites.</p>
+    Mes Documents PDF
+    <p>Choisis un document à gauche, il s’affichera ici à droite. Tu peux aussi le télécharger.</p>
 </div>
 
 <div class="container">
 
-    <!-- Sidebar avec boutons -->
+    <!-- Sidebar avec 25 boutons -->
     <div class="sidebar">
-        <div class="btn" onclick="openPDF("https://raw.githubusercontent.com/Max214354/maxime/2cd38331887a4c94fe1ec1c50d3b306d1f333c31/G%C3%A9o%20Ch%209%20Bilan.pdf")">📄 Voir le document PDF 1</div>
-        <div class="description">DESCRIPTION_1</div>
+
+        <div class="btn" onclick="openPDF('https://raw.githubusercontent.com/Max214354/maxime/2cd38331887a4c94fe1ec1c50d3b306d1f333c31/G%C3%A9o%20Ch%209%20Bilan.pdf')">
+            📄 Voir le document PDF 1
+        </div>
+        <div class="description">Géographie Chapitre 9 - Bilan</div>
 
         <div class="btn" onclick="openPDF('LIEN_2')">📄 Voir le document PDF 2</div>
         <div class="description">DESCRIPTION_2</div>
@@ -132,7 +127,72 @@
         <div class="btn" onclick="openPDF('LIEN_3')">📄 Voir le document PDF 3</div>
         <div class="description">DESCRIPTION_3</div>
 
-        <!-- Duplique ces blocs pour tes 25 PDF -->
+        <div class="btn" onclick="openPDF('LIEN_4')">📄 Voir le document PDF 4</div>
+        <div class="description">DESCRIPTION_4</div>
+
+        <div class="btn" onclick="openPDF('LIEN_5')">📄 Voir le document PDF 5</div>
+        <div class="description">DESCRIPTION_5</div>
+
+        <div class="btn" onclick="openPDF('LIEN_6')">📄 Voir le document PDF 6</div>
+        <div class="description">DESCRIPTION_6</div>
+
+        <div class="btn" onclick="openPDF('LIEN_7')">📄 Voir le document PDF 7</div>
+        <div class="description">DESCRIPTION_7</div>
+
+        <div class="btn" onclick="openPDF('LIEN_8')">📄 Voir le document PDF 8</div>
+        <div class="description">DESCRIPTION_8</div>
+
+        <div class="btn" onclick="openPDF('LIEN_9')">📄 Voir le document PDF 9</div>
+        <div class="description">DESCRIPTION_9</div>
+
+        <div class="btn" onclick="openPDF('LIEN_10')">📄 Voir le document PDF 10</div>
+        <div class="description">DESCRIPTION_10</div>
+
+        <div class="btn" onclick="openPDF('LIEN_11')">📄 Voir le document PDF 11</div>
+        <div class="description">DESCRIPTION_11</div>
+
+        <div class="btn" onclick="openPDF('LIEN_12')">📄 Voir le document PDF 12</div>
+        <div class="description">DESCRIPTION_12</div>
+
+        <div class="btn" onclick="openPDF('LIEN_13')">📄 Voir le document PDF 13</div>
+        <div class="description">DESCRIPTION_13</div>
+
+        <div class="btn" onclick="openPDF('LIEN_14')">📄 Voir le document PDF 14</div>
+        <div class="description">DESCRIPTION_14</div>
+
+        <div class="btn" onclick="openPDF('LIEN_15')">📄 Voir le document PDF 15</div>
+        <div class="description">DESCRIPTION_15</div>
+
+        <div class="btn" onclick="openPDF('LIEN_16')">📄 Voir le document PDF 16</div>
+        <div class="description">DESCRIPTION_16</div>
+
+        <div class="btn" onclick="openPDF('LIEN_17')">📄 Voir le document PDF 17</div>
+        <div class="description">DESCRIPTION_17</div>
+
+        <div class="btn" onclick="openPDF('LIEN_18')">📄 Voir le document PDF 18</div>
+        <div class="description">DESCRIPTION_18</div>
+
+        <div class="btn" onclick="openPDF('LIEN_19')">📄 Voir le document PDF 19</div>
+        <div class="description">DESCRIPTION_19</div>
+
+        <div class="btn" onclick="openPDF('LIEN_20')">📄 Voir le document PDF 20</div>
+        <div class="description">DESCRIPTION_20</div>
+
+        <div class="btn" onclick="openPDF('LIEN_21')">📄 Voir le document PDF 21</div>
+        <div class="description">DESCRIPTION_21</div>
+
+        <div class="btn" onclick="openPDF('LIEN_22')">📄 Voir le document PDF 22</div>
+        <div class="description">DESCRIPTION_22</div>
+
+        <div class="btn" onclick="openPDF('LIEN_23')">📄 Voir le document PDF 23</div>
+        <div class="description">DESCRIPTION_23</div>
+
+        <div class="btn" onclick="openPDF('LIEN_24')">📄 Voir le document PDF 24</div>
+        <div class="description">DESCRIPTION_24</div>
+
+        <div class="btn" onclick="openPDF('LIEN_25')">📄 Voir le document PDF 25</div>
+        <div class="description">DESCRIPTION_25</div>
+
     </div>
 
     <!-- Zone d'affichage PDF -->
@@ -142,6 +202,14 @@
     </div>
 
 </div>
+
+<script>
+    function openPDF(link) {
+        document.getElementById("pdfFrame").src = link;
+        document.getElementById("downloadBtn").href = link;
+    }
+</script>
+
 </body>
 </html>
 
