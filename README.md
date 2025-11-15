@@ -40,7 +40,7 @@
     <h2>L'image est belle non ? 😄</h2>
 
     <!-- Ton image -->
-    <img src="https://tse1.mm.bing.net/th?id=OIP.7lC8iBqC3gJaxk76a6JHkAHaE8&pid=Api&P=0&h=180" alt="Image paysage">
+    <img src="[https://tse1.mm.bing.net/th?id=OIP.7lC8iBqC3gJaxk76a6JHkAHaE8&pid=Api&P=0&h=180" alt="Image paysage](https://imgur.com/a/OzQs4ET)">
   </div>
 
   <script>
