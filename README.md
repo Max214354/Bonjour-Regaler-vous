@@ -107,7 +107,7 @@
 
 <div class="header">
     Bibliothèque PDF
-    <p>Choisis un document à gauche, il s’affichera ici à droite. Tu peux aussi le télécharger.</p>
+    <p>Choisis un document à gauche, il s’affichera ici à droite. Tu peux aussi le télécharger.Sur ce site ici tu va trouver des documents de cours des evals pleins de chose comme ca, regale toi mais la règle d'or ont ne cafte pas au profs que ici il y a toute les reponses.Bonne documentation</p>
 </div>
 
 <div class="container">
