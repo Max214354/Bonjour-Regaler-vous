@@ -195,7 +195,6 @@
 
     </div>
 
-    <!-- Zone d'affichage PDF -->
     <div class="content">
         <iframe id="pdfFrame" src=""></iframe>
         <a id="downloadBtn" class="download-btn" href="" download>⬇️ Télécharger le PDF</a>
@@ -204,10 +203,12 @@
 </div>
 
 <script>
-    function openPDF(link) {
-        document.getElementById("pdfFrame").src = link;
-        document.getElementById("downloadBtn").href = link;
-    }
+function openPDF(link) {
+    // Utiliser Google Docs Viewer pour afficher le PDF
+    const viewer = 'https://docs.google.com/gview?url=' + encodeURIComponent(link) + '&embedded=true';
+    document.getElementById("pdfFrame").src = viewer;
+    document.getElementById("downloadBtn").href = link;
+}
 </script>
 
 </body>
